@@ -1,0 +1,10 @@
+def select_second(L):
+    """Return the second element of the given list. If the list has no second
+    element, return None.
+    """
+    if len(L) < 2:
+        return None
+    return L[1]
+    pass
+
+print(select_second([1, 3, 5, 7]))
